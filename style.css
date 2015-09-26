@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "pineapple";
+    src: url(pineapple.ttf);
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+  background: #d9534f;
+  font-family: "pineapple";
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    background-image: url("title.min.png");
+    background-position: top center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  top: 350px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.c {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    border: 15px solid;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.red {
+    border-color: rgb(214, 41, 51);
+}
+.orange {
+    border-color: rgb(241, 194, 57);
+}
+.yellow {
+    border-color: rgb(243, 110, 47);
+}
+.green {
+    border-color: rgb(21, 154, 82);
+}
+.blue {
+    border-color: rgb(66, 149, 214);
+}
+.purple {
+    height: calc(100% - 70px);
+    width: calc(100% - 70px);
+    border-color: rgb(127, 84, 164);
+    padding: 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.char {
+    opacity: 0;
+    transform: rotate(90deg);
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 6px rgba(150, 150, 150, 1);
+}
